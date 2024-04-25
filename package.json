@@ -1,0 +1,16 @@
+{
+  "name": "m3u8-restream",
+  "version": "1.0.0",
+  "description": "A simple server to restream an M3U8 link",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "m3u8stream": "^0.8.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
